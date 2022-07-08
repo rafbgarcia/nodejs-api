@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Abhishek",
+    "salary": 145000,
+    "currency": "USD",
+    "onContract": false,
+    "department": "Engineering",
+    "subDepartment": "Platform"
+  },
+  {
+    "name": "Anurag",
+    "salary": 90000,
+    "currency": "USD",
+    "onContract": true,
+    "department": "Banking",
+    "subDepartment": "Loan"
+  },
+  {
+    "name": "Himani",
+    "salary": 240000,
+    "currency": "USD",
+    "onContract": false,
+    "department": "Engineering",
+    "subDepartment": "Platform"
+  },
+  {
+    "name": "Yatendra",
+    "salary": 30,
+    "currency": "USD",
+    "onContract": false,
+    "department": "Operations",
+    "subDepartment": "CustomerOnboarding"
+  },
+  {
+    "name": "Ragini",
+    "salary": 30,
+    "currency": "USD",
+    "onContract": false,
+    "department": "Engineering",
+    "subDepartment": "Platform"
+  },
+  {
+    "name": "Nikhil",
+    "salary": 110000,
+    "currency": "USD",
+    "onContract": true,
+    "department": "Engineering",
+    "subDepartment": "Platform"
+  },
+  {
+    "name": "Guljit",
+    "salary": 30,
+    "currency": "USD",
+    "onContract": false,
+    "department": "Administration",
+    "subDepartment": "Agriculture"
+  },
+  {
+    "name": "Himanshu",
+    "salary": 70000,
+    "currency": "EUR",
+    "onContract": false,
+    "department": "Operations",
+    "subDepartment": "CustomerOnboarding"
+  },
+  {
+    "name": "Anupam",
+    "salary": 200000000,
+    "currency": "INR",
+    "onContract": false,
+    "department": "Engineering",
+    "subDepartment": "Platform"
+  }
+]
