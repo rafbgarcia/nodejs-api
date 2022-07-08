@@ -1,4 +1,4 @@
-## Setup
+## Set up and start API server
 
 - `make setup`
 - `make start`
@@ -18,6 +18,10 @@ MongoDB admin http://localhost:8081/db/nodejs_api_dev/
 
 ## Testing
 
+### Automated tests
+
+Run `$ make tests_run`
+
 ### Manual tests
 
 #### Setup
@@ -34,20 +38,20 @@ MongoDB admin http://localhost:8081/db/nodejs_api_dev/
 1. Login with invalid credentials
 1. Login with valid credentials
 
-   - Copy the `token`
+   - Copy the `token` from the response
    - Click on `NodeJS API` > `Authorization`
    - Paste the `token` to the `Value` field
+   - Save it (CMD + S)
 
 1. Test `Create Employee`
 1. Test `Delete Employee`
 
-- Visit http://localhost:8081/db/nodejs_api_dev/Employee
-- Get an Employee `_id` and use as the `:id` param on `/employees/:id`
+   - Visit http://localhost:8081/
+   - Go to the Employee collection
+   - Copy an Employee `_id` and use as the `:id` param on `/employees/:id`
+   - Send the request and make sure the record is deleted from the collection
 
 1. Test `Employee Statistics`
 
    - Check and uncheck `Query Params` as you wish
 
-#### Automated tests
-
-Run `$ make tests_run`
